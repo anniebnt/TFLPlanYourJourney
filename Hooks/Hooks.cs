@@ -17,7 +17,7 @@ namespace TFLPlanYourJourney.Hooks
             _objectContainer = objectContainer;
         }
 
-        [BeforeScenario("@tag1")]
+        [BeforeScenario("@PlanJourney")]
         public void BeforeScenarioWithTag()
         {
 
